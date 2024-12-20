@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iframe navegação</title>
+  <style>
+    body {
+      font-family:Arial, Helvetica, sans-serif;
+    }
+    iframe#tela {
+      height: 30vw;
+      width: 97vw;
+      border-radius: 1rem;
+      border: 0.1rem solid black;
+    }
+  </style>
+</head>
+<body>
+  <h1>Faça uma escolha:</h1>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt laboriosam corporis pariatur dolor perferendis quas doloremque doloribus dolore, harum inventore iusto asperiores debitis at, soluta veritatis commodi neque nisi ab.</p>
+  <ul>
+    <li><a href="iframe001.html" target="frame">Primeira página</a></li>
+    <li><a href="iframe002.html" target="frame">Segunda página</a></li>
+    <li><a href="pag001.html" target="frame">Terceira página</a></li>
+  </ul>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, vel? Aut inventore quia dignissimos pariatur quibusdam officia hic quidem assumenda nemo tempore, dolorem ducimus recusandae dolore aperiam animi odit eius?</p>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos libero totam aut iste omnis quisquam quos, itaque laboriosam. Culpa odit minima mollitia quisquam totam fuga officiis, voluptatibus ullam numquam incidunt?</p>
+
+  <iframe srcdoc="<h1>Escolha uma das opções acima.</h1> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, vel? Aut inventore quia dignissimos pariatur quibusdam officia hic quidem assumenda nemo tempore, dolorem ducimus recusandae dolore aperiam animi odit eius?</p> <img src='imagens/image10.png'> " frameborder="1" id="tela" name="frame" scrolling="auto"></iframe>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, vel? Aut inventore quia dignissimos pariatur quibusdam officia hic quidem assumenda nemo tempore, dolorem ducimus recusandae dolore aperiam animi odit eius?</p>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos libero totam aut iste omnis quisquam quos, itaque laboriosam. Culpa odit minima mollitia quisquam totam fuga officiis, voluptatibus ullam numquam incidunt?</p>
+</body>
+</html>
